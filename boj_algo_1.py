@@ -12,3 +12,5 @@ def method2():
 
 if __name__ == '__main__':
     method1()
+
+    method2()
