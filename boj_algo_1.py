@@ -14,3 +14,4 @@ if __name__ == '__main__':
     method1()
 
     method2()
+    print('왜 안되냐고ㅗㅗㅗㅗㅗㅗ')
