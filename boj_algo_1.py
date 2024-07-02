@@ -6,7 +6,6 @@ def method1():
     for i in range(10):
         print('*' * (10-i))
 
-
 def method2():
     print('this is method 2')
     li = np.array([randint(1,100) for _ in range(randint(1,100))])
@@ -19,7 +18,9 @@ def method3():
     print(s)
 
 if __name__ == '__main__':
+    print('여기는 method3 branch 입니다.')
     method1()
 
     method2()
-    print('왜 안되냐고')
+
+    method3()
