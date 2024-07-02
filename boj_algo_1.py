@@ -3,7 +3,6 @@ from random import randint
 
 def method1():
     print('this is method 1')
-    method2()
 
 def method2():
     print('this is method 2')
