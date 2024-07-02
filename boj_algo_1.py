@@ -15,9 +15,9 @@ def method3():
             print('*' * i)
 
 if __name__ == '__main__':
+    print('여기는 method3 branch 입니다.')
     method1()
 
     method2()
-    print('왜 안되냐고')
 
     method3()
