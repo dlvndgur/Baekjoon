@@ -3,7 +3,9 @@ from random import randint
 
 def method1():
     print('this is method 1')
-    method2()
+    for i in range(10):
+        print('*' * (10-i))
+
 
 def method2():
     print('this is method 2')
